@@ -1,0 +1,188 @@
+<html>
+<head>
+	<title>Sir Tim Berners-Lee</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<section id="welcome" class="parallax-container">
+		<div class="parallax-inner">
+			<img src="stbl.jpg" class="profile" />
+			<h1>I Am <br><span id="name">Tim Berners-Lee</span></h1>
+			<h2> I am the founder of www: World Wide Web</h2>
+		</div>
+	</section>
+	
+	
+	
+	<section id="bio">
+		<h1>Hi!</h1>
+		<div class="line"></div>
+		<p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory.
+
+			He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford.
+
+			In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.<br/><br/>In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded.
+
+			In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users.
+
+			The Web was first used for e-commerce in 1997.</p>
+	</section>
+
+</body></html>
+
+
+css
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+h1 {
+
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace
+}
+
+#bio {
+
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+
+PROJECT
+<html>
+  <head>
+    <title>My Portfolio</title>
+	<style>
+	
+	</style>
+</head>
+
+
+
+    <body>
+      <section>
+   <img src="https://projectsassets.s3.us-east-2.amazonaws.com/reading.jpg">
+    <h1>My  Favorite Hobby <br><span id="name>">Reading books</span></h1></div>
+    </section>
+<section id="bio">
+    <h1></h1><div class="line"></div>
+        <p >My hobby is reading interesting and knowledgeable books in my free time. Whenever I go to home from my school I like to read such books after completing my home work. I am 12 years old and read in class 7th standard. Now I know very well that reading is very good habit which can make me a complete. This hobby can be developed by anyone however I got this naturally. Reading books keep one always happy and busy. It is the good source of enjoyment, knowledge, inspiration and instruction. It makes us disciplined, loyal, punctual and most importantly a successful person in the life.</p>
+    </section>
+    
+    </body>
+
+
+
+</html>
+    
+    CSS
+body
+{
+    text-align: center;
+    background: linear-gradient( #E1BEE7 0%,#90CAF9 100%);
+	background-repeat:no-repeat;
+}
+
+img
+{
+  border-radius:50%;
+  width:100px;
+}
+
+
+h1{
+  text-shadow:2px 2px #F8BBD0;
+  font-size:20px;
+}
+
+
+p{
+  font-size:18px;
+  color:#6A1B9A;
+  
+    
+}
+h2{
+  font-size:20px;
+  color:#1A237E;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+#bio{
+    padding:20px;
+    font-size:18;
+    text-align:center;
+}
+
